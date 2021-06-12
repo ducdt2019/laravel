@@ -15,7 +15,7 @@ use App\Http\Controllers\KmaController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/home', function () {
     return view('welcome');
 });
 
@@ -24,4 +24,4 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 // kma
-Route::get('/kma', [KmaController::class, 'index'])->name('kma');
+Route::get('/', [KmaController::class, 'index'])->name('kma');
