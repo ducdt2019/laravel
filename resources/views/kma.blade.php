@@ -62,7 +62,7 @@
                  class="">
 
         </div>
-        <h1>This is server in public subnet  </h1>
+        <h1>This is server in private subnet  </h1>
         <a href="http://actvn.edu.vn/" target="_blank">
             <h2 class="color-red">This is KMA</h2>
         </a>
